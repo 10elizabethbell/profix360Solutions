@@ -449,7 +449,7 @@ function msgrUrl(text){return CONFIG.MESSENGER+'?text='+encodeURIComponent(text)
     msg+=job&&job.value!=='Something else'?' for '+job.value.toLowerCase()+'.':'.';
     if(place)msg+=' It\'s for a '+place.value.toLowerCase()+'.';
     msg+=' Town: '+town+'.';
-    if(what)msg+=' '+what;
+    if(what)msg+=' '+what+(/[.!?]$/.test(what)?'':'.');
     msg+=' Pictures below.';
     out.value=msg;
     sent.hidden=false;
