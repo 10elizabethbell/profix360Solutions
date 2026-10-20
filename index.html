@@ -91,7 +91,7 @@ section{padding:64px 0}
 .brand .mark img{width:30px;height:auto}
 .brand .name{display:flex;flex-direction:column}
 .brand b{font:400 21px/1 var(--display);letter-spacing:.01em}
-.brand span{font:600 11px/1 var(--text);letter-spacing:.08em;white-space:nowrap;text-transform:uppercase;color:var(--soft);margin-top:5px}
+.brand span{font:600 12px/1 var(--text);letter-spacing:.08em;white-space:nowrap;text-transform:uppercase;color:var(--soft);margin-top:5px}
 .msg{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 2px;font:400 17px/1 var(--display);text-decoration:none;white-space:nowrap}
 .msg svg{width:20px;height:20px;flex:none;color:var(--gold-ink)}
 
@@ -132,7 +132,7 @@ section{padding:64px 0}
 /* ---------- How it works ---------- */
 .steps{list-style:none;margin:12px 0 0;padding:0;display:grid;gap:24px;counter-reset:s}
 .steps li{display:grid;grid-template-columns:48px 1fr;gap:16px;align-items:start;counter-increment:s}
-.steps li::before{content:counter(s);width:48px;height:48px;border-radius:50%;display:grid;place-items:center;background:var(--gold);color:var(--ink);font:400 20px/1 var(--display)}
+.steps li::before{content:counter(s);width:48px;height:48px;border-radius:50%;display:grid;place-items:center;background:var(--ink);color:#fff;font:400 20px/1 var(--display)}
 .steps b{display:block;font:400 21px/1.2 var(--display);color:var(--ink);margin-top:4px}
 .steps span{display:block;margin-top:4px;color:var(--soft)}
 
@@ -153,6 +153,7 @@ input[type=text]:focus,textarea:focus{outline:none;border-color:var(--focus)}
 .chips label{display:inline-flex;align-items:center;min-height:48px;padding:0 18px;border-radius:var(--pill);background:var(--field);border:2px solid transparent;font:16px/1 var(--text);color:var(--ink);cursor:pointer;margin:0;transition:border-color .15s,background-color .15s,color .15s}
 .chips input:focus-visible+label{outline:3px solid var(--focus);outline-offset:2px}
 .chips input:checked+label{background:var(--ink);color:#fff}
+.chips label.picked{outline:3px solid var(--focus);outline-offset:2px}
 .err{display:none;font-size:15px;color:var(--error)}
 .field.bad .err{display:block}
 .field.bad input[type=text],.field.bad input[type=text]:focus,.field.bad textarea{border-color:var(--error)}
@@ -172,7 +173,7 @@ form .btn-primary:focus-visible{outline:2px solid var(--focus);outline-offset:2p
 .close .btn{margin-top:28px;width:100%}
 
 /* ---------- Footer ---------- */
-footer{background-color:var(--deep);background-image:var(--texture);color:var(--on-dark-soft);padding:48px 0 calc(96px + env(safe-area-inset-bottom));font-size:16px}
+footer{background-color:var(--deep);background-image:var(--texture);color:var(--on-dark-soft);padding:48px 0 calc(48px + env(safe-area-inset-bottom));font-size:16px}
 footer .wrap{display:grid;gap:14px}
 footer nav{display:flex;flex-wrap:wrap;gap:6px 22px}
 footer a{display:inline-flex;align-items:center;min-height:44px;color:var(--on-dark);text-decoration:none}
@@ -203,7 +204,7 @@ footer a{display:inline-flex;align-items:center;min-height:44px;color:var(--on-d
 }
 @media (min-width:1024px){
   .crest{display:block;position:absolute;right:var(--gutter);top:50%;width:300px;height:auto;transform:translateY(-50%);opacity:.95}
-  .services .wrap{display:grid;grid-template-columns:.8fr 1.2fr;column-gap:64px;align-items:start}
+  .services .wrap{display:grid;grid-template-columns:.65fr 1.35fr;column-gap:64px;align-items:start}
   .services .rows{margin-top:0;grid-template-columns:1fr 1fr;column-gap:40px}
   .services .rows li:nth-child(2){border-top:0}
   .ask .wrap{grid-template-columns:1fr 1.2fr;gap:64px;align-items:start}
@@ -289,7 +290,7 @@ FORM: calm band system without photos (none obtainable: work photos are only in 
   <div class="wrap">
     <div class="head rise">
       <h2 id="h-services">What we <span class="accent">do.</span></h2>
-      <p class="lede">Tap one to ask for a free estimate.</p>
+      <p class="lede">Pick one to start your free estimate.</p>
     </div>
     <ul class="rows">
       <li class="rise"><a class="row" href="#ask" data-job="Security cameras">Security cameras<span class="arrow" aria-hidden="true"><svg><use href="#i-arrow"/></svg></span></a></li>
@@ -313,7 +314,7 @@ FORM: calm band system without photos (none obtainable: work photos are only in 
         <li><div><b>Get your free estimate.</b><span>We talk through your project and give you a fair price.</span></div></li>
       </ol>
     </div>
-    <form id="estForm" class="rise" novalidate>
+    <form id="estForm" class="rise" action="https://m.me/61593473346111" method="get" aria-labelledby="h-ask" novalidate>
       <fieldset class="field">
         <legend>What do you need?</legend>
         <div class="chips">
@@ -366,9 +367,9 @@ FORM: calm band system without photos (none obtainable: work photos are only in 
   <div class="wrap">
     <div class="rise">
       <h2 id="h-close">ProFix 360 Solutions LLC</h2>
-      <p class="who">Security cameras, low voltage and LED lighting, plus painting, repairs and Christmas lights. Serving New Jersey.</p>
+      <p class="who">Message us for a free estimate. Send a few pictures and your town.</p>
     </div>
-    <a class="btn btn-primary rise" data-msgr href="https://m.me/61593473346111" rel="noopener"><svg aria-hidden="true"><use href="#i-msgr"/></svg>Message us on Facebook</a>
+    <a class="btn btn-primary rise" data-msgr href="https://m.me/61593473346111" rel="noopener"><svg aria-hidden="true"><use href="#i-msgr"/></svg>Message us on Messenger</a>
   </div>
 </section>
 </main>
@@ -426,7 +427,10 @@ function msgrUrl(text){return CONFIG.MESSENGER+'?text='+encodeURIComponent(text)
   [].forEach.call(document.querySelectorAll('[data-job]'),function(a){
     a.addEventListener('click',function(){
       var r=document.querySelector('input[name=job][value="'+a.getAttribute('data-job')+'"]');
-      if(r)r.checked=true;
+      if(!r)return;r.checked=true;
+      // brief outline so the visitor sees the job was picked for them
+      if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+      var l=document.querySelector('label[for='+r.id+']');l.classList.add('picked');setTimeout(function(){l.classList.remove('picked')},1600);
     });
   });
 })();
@@ -457,7 +461,7 @@ function msgrUrl(text){return CONFIG.MESSENGER+'?text='+encodeURIComponent(text)
   });
   document.getElementById('copyBtn').addEventListener('click',function(){
     var b=this;out.select();
-    function done(){b.textContent='Copied'}
+    function done(){b.textContent='Copied';setTimeout(function(){b.textContent='Copy message'},2000)}
     if(navigator.clipboard)navigator.clipboard.writeText(out.value).then(done,function(){try{document.execCommand('copy');done()}catch(e){}});
     else{try{document.execCommand('copy');done()}catch(e){}}
   });

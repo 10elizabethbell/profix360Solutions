@@ -1,0 +1,26 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "repeating-stripes-gradient",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-20T21:49:22.011Z",
+        "reason": "Ellie's house calm band style (pitch-site skill calm-photo-style.md item 2, chosen 2026-10-19): faint 135deg band texture at 3.5% white"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-20T21:49:22.073Z",
+        "reason": "False positive: hero section padding lives on its child .hero-copy (56-112px top/bottom); hero has no visible boundary"
+      }
+    ]
+  }
+}
