@@ -20,6 +20,78 @@
         ],
         "createdAt": "2026-10-20T21:49:22.073Z",
         "reason": "False positive: hero section padding lives on its child .hero-copy (56-112px top/bottom); hero has no visible boundary"
+      },
+      {
+        "rule": "design-system-radius",
+        "value": "8px",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-20T21:57:13.784Z",
+        "reason": "Documenter derived DESIGN.md from this shipped page and left these one-off values out of the tokens on purpose (brand-mark tile, Facebook card, sent panel, focus ring, Facebook blue, small text, desktop hero size)"
+      },
+      {
+        "rule": "design-system-radius",
+        "value": "20px",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-20T21:57:13.846Z",
+        "reason": "Documenter derived DESIGN.md from this shipped page and left these one-off values out of the tokens on purpose (brand-mark tile, Facebook card, sent panel, focus ring, Facebook blue, small text, desktop hero size)"
+      },
+      {
+        "rule": "design-system-radius",
+        "value": "6px",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-20T21:57:13.906Z",
+        "reason": "Documenter derived DESIGN.md from this shipped page and left these one-off values out of the tokens on purpose (brand-mark tile, Facebook card, sent panel, focus ring, Facebook blue, small text, desktop hero size)"
+      },
+      {
+        "rule": "design-system-radius",
+        "value": "16px",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-20T21:57:13.967Z",
+        "reason": "Documenter derived DESIGN.md from this shipped page and left these one-off values out of the tokens on purpose (brand-mark tile, Facebook card, sent panel, focus ring, Facebook blue, small text, desktop hero size)"
+      },
+      {
+        "rule": "design-system-color",
+        "value": "#1877f2",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-20T21:57:14.028Z",
+        "reason": "Facebook brand blue on the Facebook link icon; Documenter derived DESIGN.md from this shipped page and left these one-off values out of the tokens on purpose (brand-mark tile, Facebook card, sent panel, focus ring, Facebook blue, small text, desktop hero size)"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "15px",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-20T21:57:14.090Z",
+        "reason": "Documenter derived DESIGN.md from this shipped page and left these one-off values out of the tokens on purpose (brand-mark tile, Facebook card, sent panel, focus ring, Facebook blue, small text, desktop hero size)"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "clamp(18px,5vw,20px)",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-20T21:57:14.150Z",
+        "reason": "Documenter derived DESIGN.md from this shipped page and left these one-off values out of the tokens on purpose (brand-mark tile, Facebook card, sent panel, focus ring, Facebook blue, small text, desktop hero size)"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "clamp(56px,7.4vw,84px)",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-20T21:57:14.210Z",
+        "reason": "Documenter derived DESIGN.md from this shipped page and left these one-off values out of the tokens on purpose (brand-mark tile, Facebook card, sent panel, focus ring, Facebook blue, small text, desktop hero size)"
       }
     ]
   }
