@@ -7,7 +7,7 @@
 <meta name="description" content="Security cameras, CAT6 network cabling, interior & exterior painting, LED & low-voltage lighting, handyman repairs and Christmas lights for homes and businesses across New Jersey. Message us for a free estimate.">
 <meta name="theme-color" content="#f4f6fb">
 <meta property="og:type" content="website">
-<meta property="og:title" content="ProFix 360 Solutions LLC · One crew for every fix in New Jersey">
+<meta property="og:title" content="ProFix 360 Solutions LLC · Cameras to Christmas lights, done right in New Jersey">
 <meta property="og:description" content="Cameras, network cable, painting, lighting and repairs for homes, restaurants and offices. Send a few pictures and your town for a free estimate.">
 <meta property="og:url" content="https://10elizabethbell.github.io/profix360Solutions/">
 <meta property="og:image" content="https://10elizabethbell.github.io/profix360Solutions/og.png">
@@ -91,7 +91,7 @@ section{padding:64px 0}
 .brand .mark img{width:30px;height:auto}
 .brand .name{display:flex;flex-direction:column}
 .brand b{font:400 21px/1 var(--display);letter-spacing:.01em}
-.brand span{font:600 12px/1 var(--text);letter-spacing:.08em;white-space:nowrap;text-transform:uppercase;color:var(--soft);margin-top:5px}
+.brand .name span{font:600 12px/1 var(--text);letter-spacing:.08em;white-space:nowrap;text-transform:uppercase;color:var(--soft);margin-top:5px}
 .msg{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 2px;font:400 17px/1 var(--display);text-decoration:none;white-space:nowrap}
 .msg svg{width:20px;height:20px;flex:none;color:var(--gold-ink)}
 
@@ -201,9 +201,10 @@ footer a{display:inline-flex;align-items:center;min-height:44px;color:var(--on-d
   .actions .btn{min-width:240px}
   .cards{grid-template-columns:repeat(3,1fr)}
   .close .btn{width:auto;min-width:280px}
+  .crest{display:block;position:absolute;right:var(--gutter);top:50%;width:clamp(180px,22vw,280px);height:auto;transform:translateY(-50%)}
+  .hero h1{max-width:14ch;font-size:clamp(56px,7.4vw,84px)}
 }
 @media (min-width:1024px){
-  .crest{display:block;position:absolute;right:var(--gutter);top:50%;width:300px;height:auto;transform:translateY(-50%);opacity:.95}
   .services .wrap{display:grid;grid-template-columns:.65fr 1.35fr;column-gap:64px;align-items:start}
   .services .rows{margin-top:0;grid-template-columns:1fr 1fr;column-gap:40px}
   .services .rows li:nth-child(2){border-top:0}
@@ -235,11 +236,11 @@ footer a:hover{color:var(--gold)}
 </head>
 <body>
 <!--
-THESIS: A six-trade NJ outfit that has only ever existed in Facebook posts gets a calm, ordered home that says "one crew for every fix" and turns a visitor into a free-estimate message, using the owner's own process: a few pictures and your town.
+THESIS: A six-trade NJ outfit that has only ever existed in Facebook posts gets a calm, ordered home that says "cameras to Christmas lights, done right" and turns a visitor into a free-estimate message, using the owner's own process: a few pictures and your town.
 OWN-WORLD: The logo's world: a gold lion on a shield. Off-white paper, navy (#17325a) and deep navy (#0d1d36, faint diagonal lines) bands, the lion's gold (#f5b83d) as the one accent (fills only; #7f5600 when it has to be text on light). The shield mark, cut from the logo's black, sits in the header and large in the desktop hero. Cal Sans display, system body at 16/1.7.
 STORY: The visitor sees one crew that does cameras, cable, paint, lighting, repairs and Christmas lights for homes and businesses in New Jersey; believes they'll be treated well (clean work, fair pricing, attention to detail, the owner's words); and sends pictures and their town on Messenger.
-FIRST VIEWPORT: Paper header: shield mark and wordmark left, "Message us" top right (no phone published). Navy hero: eyebrow "Free estimates", "One crew for every fix in New Jersey.", the owner's promise line, two pill buttons (Get a free estimate, See what we do).
-FORM: calm band system without photos (none obtainable: work photos are only in a login-walled group post); the estimate form composes a Messenger message and tells the visitor to attach photos there.
+FIRST VIEWPORT: Paper header: shield mark and wordmark left, "Message us" top right (no phone published). Navy hero: eyebrow "Free estimates", "Cameras to Christmas lights, done right in New Jersey.", the owner's promise line, two pill buttons (Get a free estimate, See what we do).
+FORM: house calm band style (pitch-site default since 2026-10-19), which replaces the concept roll, so no seed key; no photos (none obtainable: work photos are only in a login-walled group post); the estimate form composes a Messenger message and tells the visitor to attach photos there.
 -->
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
   <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
@@ -257,14 +258,14 @@ FORM: calm band system without photos (none obtainable: work photos are only in 
   <div class="wrap">
     <div class="hero-copy">
       <span class="eyebrow">Free estimates</span>
-      <h1 id="h1">One crew for every fix in <span class="accent">New Jersey.</span></h1>
+      <h1 id="h1">Cameras to Christmas lights, done right in <span class="accent">New Jersey.</span></h1>
       <p class="promise">From restaurants and offices to homes: clean work, fair pricing, and attention to detail.</p>
       <div class="actions">
         <a class="btn btn-primary" href="#ask">Get a free estimate</a>
         <a class="btn btn-ghost" href="#services">See what we do</a>
       </div>
     </div>
-    <img class="crest" src="shield.webp" width="240" height="274" alt="">
+    <img class="crest" src="shield.webp" width="350" height="400" alt="">
   </div>
 </section>
 
@@ -280,7 +281,7 @@ FORM: calm band system without photos (none obtainable: work photos are only in 
       <li class="rise"><h3>Offices</h3><p>Network cable run tidy and out of sight, so the office just works.</p></li>
     </ul>
     <a class="fb rise" href="https://www.facebook.com/profile.php?id=61593473346111" rel="noopener">
-      <span class="lbl"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12a12 12 0 1 0-13.9 11.9v-8.4h-3V12h3V9.4c0-3 1.8-4.7 4.5-4.7 1.3 0 2.7.2 2.7.2v2.9h-1.5c-1.5 0-2 .9-2 1.9V12h3.4l-.5 3.5h-2.9v8.4A12 12 0 0 0 24 12z"/></svg>See our work on Facebook</span>
+      <span class="lbl"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12a12 12 0 1 0-13.9 11.9v-8.4h-3V12h3V9.4c0-3 1.8-4.7 4.5-4.7 1.3 0 2.7.2 2.7.2v2.9h-1.5c-1.5 0-2 .9-2 1.9V12h3.4l-.5 3.5h-2.9v8.4A12 12 0 0 0 24 12z"/></svg>Follow our work on Facebook</span>
       <span class="arrow" aria-hidden="true"><svg><use href="#i-arrow"/></svg></span>
     </a>
   </div>
@@ -310,7 +311,7 @@ FORM: calm band system without photos (none obtainable: work photos are only in 
       <h2 id="h-ask">Your free estimate</h2>
       <ol class="steps">
         <li><div><b>Send a few pictures.</b><span>Snap the job on your phone.</span></div></li>
-        <li><div><b>Tell us your town.</b><span>Anywhere in New Jersey.</span></div></li>
+        <li><div><b>Tell us your town.</b><span>So we know where the job is.</span></div></li>
         <li><div><b>Get your free estimate.</b><span>We talk through your project and give you a fair price.</span></div></li>
       </ol>
     </div>
@@ -349,7 +350,7 @@ FORM: calm band system without photos (none obtainable: work photos are only in 
         <textarea id="what" name="what" maxlength="600" placeholder="Four cameras around the house, paint two bedrooms…"></textarea>
       </div>
       <button class="btn btn-primary" type="submit"><svg aria-hidden="true"><use href="#i-msgr"/></svg>Send on Messenger</button>
-      <p class="after">Opens Messenger with this written out. Add your pictures there.</p>
+      <p class="after">Opens Messenger with your message written out (we copy it too, in case you need to paste it). Add your pictures there.</p>
       <div class="sent" id="sent" role="status" hidden>
         <p><b>Now add your pictures</b> with the photo button in the chat, then send.</p>
         <p>Messenger didn't open, or the message is empty? Copy it and paste it into a message to us:</p>
@@ -457,6 +458,8 @@ function msgrUrl(text){return CONFIG.MESSENGER+'?text='+encodeURIComponent(text)
     msg+=' Pictures below.';
     out.value=msg;
     sent.hidden=false;
+    // best-effort copy first, so the message survives if Messenger ignores the prefill
+    try{if(navigator.clipboard)navigator.clipboard.writeText(msg).catch(function(){})}catch(err){}
     location.href=msgrUrl(msg);
   });
   document.getElementById('copyBtn').addEventListener('click',function(){
